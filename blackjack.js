@@ -27,6 +27,7 @@ hitButton.style.display = 'none';
 stayButton.style.display = 'none';
 showStatus();
 
+// event listeners
 newGameButton.addEventListener('click', function() {
   gameStarted = true;
   gameOver = false;
